@@ -1,9 +1,7 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="RevStackCore.Serialization/Serialization/ResponseSerializer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RevStackCore.Serialization/RevStackCore.Serialization.csproj">
     <Files>
-      <File FileName="RevStackCore.Serialization/Json/Json.cs" Line="119" Column="38" />
-      <File FileName="README.md" Line="6" Column="1" />
-      <File FileName="RevStackCore.Serialization/Serialization/ResponseSerializer.cs" Line="2" Column="8" />
+      <File FileName="RevStackCore.Serialization/RevStackCore.Serialization.csproj" Line="7" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

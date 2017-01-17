@@ -1,6 +1,6 @@
 {
   "name": "RevStackCore.Serialization",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": ".net core serialization utility and type conversion library",
 	"main": "RevStackCore.Serialization.sln",
   "scripts": {
