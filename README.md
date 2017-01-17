@@ -1,0 +1,6 @@
+# RevStackCore.Serialization
+
+
+
+
+
