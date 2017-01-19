@@ -1,6 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workbench ActiveDocument="RevStackCore.Serialization/RevStackCore.Serialization.csproj">
     <Files>
+      <File FileName="RevStackCore.Serialization/Extensions/Extensions.cs" Line="11" Column="3" />
+      <File FileName="RevStackCore.Serialization/Json/Json.cs" Line="62" Column="35" />
       <File FileName="RevStackCore.Serialization/RevStackCore.Serialization.csproj" Line="7" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>

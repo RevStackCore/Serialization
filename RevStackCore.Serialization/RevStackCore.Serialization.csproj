@@ -4,7 +4,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.5</TargetFramework>
 	<PackageId>RevStackCore.Serialization</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
     <Authors>S. Francis</Authors>
     <Description>.net core serialization utility and type conversion library</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -36,6 +36,7 @@
   <ItemGroup>
     <Folder Include="Json\" />
     <Folder Include="Serialization\" />
+    <Folder Include="Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Json\Json.cs" />
@@ -45,6 +46,7 @@
     <Compile Include="Serialization\ResponseSerializer.cs" />
     <Compile Include="Serialization\HttpPostSerializer.cs" />
     <Compile Include="Serialization\UnencodedAttribute.cs" />
+    <Compile Include="Extensions\Extensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

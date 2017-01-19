@@ -53,12 +53,24 @@ namespace RevStackCore.Serialization
 		/// <returns></returns>
 		public static T Cast<T>(object value)
 		{
-			var json = serializeObject(value, false, true);
+			var json = serializeObject(value, false, false);
 			var obj = DeserializeObject<T>(json);
 			return obj;
 		}
 
-
+		/// <summary>
+		/// an object to a generic type 
+		/// </summary>
+		/// <returns>The cast.</returns>
+		/// <param name="value">Value.</param>
+		/// <param name="camelCase">If set to <c>true</c> camel case.</param>
+		/// <typeparam name="T">The 1st type parameter.</typeparam>
+		public static T Cast<T>(object value, bool camelCase)
+		{
+			var json = serializeObject(value, false, camelCase);
+			var obj = DeserializeObject<T>(json);
+			return obj;
+		}
 
 		/// <summary>
 		///     Deserialize Json string to object method overload
