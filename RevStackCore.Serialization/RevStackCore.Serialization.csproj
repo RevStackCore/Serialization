@@ -1,8 +1,7 @@
-﻿<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" />
+﻿ <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.5</TargetFramework>
+    <TargetFramework>netstandard1.6</TargetFramework>
 	<PackageId>RevStackCore.Serialization</PackageId>
     <PackageVersion>1.0.3</PackageVersion>
     <Authors>S. Francis</Authors>
@@ -14,17 +13,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="**\*.resx" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Sdk">
-      <Version>1.0.0-alpha-20161104-2</Version>
-      <PrivateAssets>All</PrivateAssets>
-    </PackageReference>
-    <PackageReference Include="NETStandard.Library">
-      <Version>1.6.1</Version>
-    </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
       <Version>9.0.1</Version>
     </PackageReference>
@@ -38,15 +26,5 @@
     <Folder Include="Serialization\" />
     <Folder Include="Extensions\" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Json\Json.cs" />
-    <Compile Include="Serialization\FormatAttribute.cs" />
-    <Compile Include="Serialization\JasonContractResolver.cs" />
-    <Compile Include="Serialization\OptionalAttribute.cs" />
-    <Compile Include="Serialization\ResponseSerializer.cs" />
-    <Compile Include="Serialization\HttpPostSerializer.cs" />
-    <Compile Include="Serialization\UnencodedAttribute.cs" />
-    <Compile Include="Extensions\Extensions.cs" />
-  </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+
 </Project>
