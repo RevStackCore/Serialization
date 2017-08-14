@@ -4,7 +4,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.5</TargetFramework>
 	<PackageId>RevStackCore.Serialization</PackageId>
-    <PackageVersion>1.0.2</PackageVersion>
+    <PackageVersion>1.0.3</PackageVersion>
     <Authors>S. Francis</Authors>
     <Description>.net core serialization utility and type conversion library</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>

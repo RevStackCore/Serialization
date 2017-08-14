@@ -9,7 +9,17 @@ namespace RevStackCore.Serialization
 	public static class Json
 	{
 		/// <summary>
-		///     Json serialize an object to a string
+        /// Serialize the specified value.
+        /// </summary>
+        /// <returns>The serialize.</returns>
+        /// <param name="value">Value.</param>
+        public static string Serialize(object value)
+        {
+            return JsonConvert.SerializeObject(value);
+        }
+
+        /// <summary>
+		///     Json serialize a type to a string
 		/// </summary>
 		/// <typeparam name="T"></typeparam>
 		/// <param name="value"></param>
@@ -20,7 +30,7 @@ namespace RevStackCore.Serialization
 		}
 
 		/// <summary>
-		///  Json serialize an object to a string overload
+		///  Json serialize a type to a string overload
 		/// </summary>
 		/// <typeparam name="T"></typeparam>
 		/// <param name="value"></param>
@@ -32,7 +42,7 @@ namespace RevStackCore.Serialization
 		}
 
 		/// <summary>
-		///   Json serialize an object to a string overload
+		///   Json serialize a type to a string overload
 		/// </summary>
 		/// <typeparam name="T"></typeparam>
 		/// <param name="value"></param>
