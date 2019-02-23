@@ -3,11 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
 	<PackageId>RevStackCore.Serialization</PackageId>
-    <PackageVersion>1.0.3</PackageVersion>
+    <PackageVersion>1.0.4</PackageVersion>
     <Authors>S. Francis</Authors>
     <Description>.net core serialization utility and type conversion library</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>Net Standard 1.5 release</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/RevStackCore/Serialization.git</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/RevStackCore/Serialization/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageIconUrl>https://s3.amazonaws.com/revstack/icons/revstackcore-64x64.png</PackageIconUrl>
     <Copyright>Copyright 2017</Copyright>
     <PackageTags>RevStackCore Serialization</PackageTags>	
   </PropertyGroup>
